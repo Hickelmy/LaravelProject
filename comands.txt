@@ -1,0 +1,14 @@
+//Inicializar um servidor local laravel
+php artisan server
+
+//Cria um nova tabela
+php artisan make:migration create_produto_table
+
+//visualiza qual a migrate ja foi finalizada
+php artisan migrate
+
+//verifica o status da tabela
+php artisan migrate:status
+
+//Atualiza a tabela
+php artisan migrate:fresh
